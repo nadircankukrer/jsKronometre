@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Montserrat&display=swap');
+@font-face {
+    font-family: digital;
+    src: url(fonts/digital-7.regular.ttf);
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    height: 100vh;
+    background-color: #212121;
+    color: white;
+}
+
+
+
+.clock {
+    font-family: digital;
+    color: red;
+}
+
+h1 {
+    font-size: 8rem;
+    letter-spacing: 4px;
+}
+
+.container {
+    width: 50%;
+    height: 40%;
+    margin: 5rem auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    
+}
+
+form label {
+display: flex;
+flex-direction: column;
+margin: 0 1rem;
+
+}
+
+#secilen-dk, #secilen-sn {
+    margin-top: 0.5rem;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    background-color: #3a3939;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    margin-bottom: 40px;
+}
+
+#baslat {
+    cursor: pointer;
+    padding: 0.7rem;
+    border-radius: 10px;
+    border: none;
+    background-color: #3a3939;
+    color: white;
+    margin-bottom: 35px;
+    font-size: medium;  
+}
+#baslat:hover {
+    background-color: #313030;
+}
+
+
+#sifirla {
+    cursor: pointer;
+    padding: 0.7rem;
+    border-radius: 10px;
+    border: none;
+    background-color: #3a3939;
+    color: white;
+    font-size: medium;
+    
+}
+
+#sifirla:hover {
+    background-color: #313030;
+}
